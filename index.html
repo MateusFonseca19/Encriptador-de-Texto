@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <main class="conteudo">
+        <section class="secao__1">
+            <textarea id="entrada__texto" class="entrada" type="text" placeholder="Digite seu texto"></textarea>
+            <div class="advertencia">    
+                <div class="advertencia__texto">
+                    <img class="advertencia__icone" src="./assets/exclamacao.png" alt="">
+                    <p>Apenas letras minúsculas e sem acento.</p>
+                </div>
+                <div class="botoes__secao__1">
+                    <button onclick="btnCriptografar()" class="btn__criptografar">Criptografar</button>
+                    <button onclick="btnDescriptografar()" class="btn__descriptografar">Descriptografar</button>
+                </div>
+            </div>
+        </section>
+        <section class="secao__2">
+                <div>
+                    <img id="secao__2__imagem" class="imagem__secao__2" src= "./assets/boneco.png" alt="">
+                    <div id="secao__2__texto">
+                        <h1 class="titulo__secao__2">Nenhuma mensagem encontrada</h1>
+                        <p class="paragrafo__secao__2">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                    </div>
+                </div>
+                <textarea id="saida__texto" class="resultado" ></textarea>
+                <button id="btn__copiar" class="botao__copiar" >copiar</button>
+        </section>
+    </main>
+    <footer class="rodape">Desenvolvido por Mateus Rodrigues da Fonseca</footer>
+    <script src="script.js"></script>
+</body>
+</html>
