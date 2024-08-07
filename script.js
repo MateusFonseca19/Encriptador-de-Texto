@@ -40,7 +40,7 @@ function btnCriptografar() {
     resultado.style.justifyContent = 'space-between';
     botaoCopiar.style.display = 'block';
 
-    entradaTexto.value = ""; // Limpar o campo de texto
+    entradaTexto.value = "";
 }
 
 function btnDescriptografar() {
@@ -64,7 +64,7 @@ function btnDescriptografar() {
     resultado.style.justifyContent = 'space-between';
     botaoCopiar.style.display = 'block';
 
-    entradaTexto.value = ""; // Limpar o campo de texto
+    entradaTexto.value = ""; 
 }
 
 function copiar() {
